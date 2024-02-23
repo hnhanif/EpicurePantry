@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="HomeScreen" default="default" basedir=".">
+    <description>Builds, tests, and runs the project HomeScreen.</description>
+
+    <!-- Import build-impl.xml for default NetBeans build tasks -->
+    <import file="nbproject/build-impl.xml"/>
+
+    <!-- Define properties for external libraries -->
+    <property name="lib.dir" location="lib"/>
+
+    <!-- Define classpath for external libraries -->
+    <path id="classpath">
+        <fileset dir="${lib.dir}">
+            <include name="**/*.jar"/>
+        </fileset>
+    </path>
+
+    <!-- Override -pre-compile to include external libraries in the classpath -->
+    <target name="-pre-compile">
+        <mkdir dir="${build.classes.dir}"/>
+        <javac includeantruntime="false" srcdir="${src.dir}" destdir="${build.classes.dir}" classpathref="classpath"/>
+    </target>
+
+    <!-- Override -pre-compile-single to include external libraries in the classpath -->
+    <target name="-pre-compile-single">
+        <mkdir dir="${build.classes.dir}"/>
+        <javac includeantruntime="false" srcdir="${src.dir}" destdir="${build.classes.dir}" classpathref="classpath"/>
+    </target>
+
+    <!-- Override -pre-compile-test to include external libraries in the classpath -->
+    <target name="-pre-compile-test">
+        <mkdir dir="${build.test.classes.dir}"/>
+        <javac includeantruntime="false" srcdir="${test.src.dir}" destdir="${build.test.classes.dir}" classpathref="classpath"/>
+    </target>
+
+    <!-- Override -pre-compile-test-single to include external libraries in the classpath -->
+    <target name="-pre-compile-test-single">
+        <mkdir dir="${build.test.classes.dir}"/>
+        <javac includeantruntime="false" srcdir="${test.src.dir}" destdir="${build.test.classes.dir}" classpathref="classpath"/>
+    </target>
+
+    <!-- (Add any other necessary overrides here) -->
+
+</project>

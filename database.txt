@@ -1,0 +1,8 @@
+Mular Juice|Mula|Cut the mula , and put into the beender|Appetizer|5|Easy
+Jhal-Muri|Jhal morich, Muri, sola, mosola|with a mug do a lara|Appetizer|5|Easy
+Hello|hello|Hello|Dessert|Hello|Easy
+cool|cool cool|do cool|Dessert|10|Easy
+new1|new1|new1ljafljsdaflsdfjsdl;fjsdalfjsd;lfs;fsdlfsdfjl;|Main Course|10|Medium
+1|1|1|Dessert|1|Easy
+Hello|one|two|Dessert|2|Easy
+|||Dessert||Easy

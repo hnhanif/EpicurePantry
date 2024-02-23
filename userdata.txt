@@ -1,0 +1,7 @@
+Abu,Hanif,hanifgp2500@gmail.com,Male,root@1234
+Abu,Hanif,aliensarmy2500@gmail.com,Male,root@1234
+aa,bb,abc@abc.com,Male,abc
+aa,bb,abcd@abc.com,Male,abc
+ELU,Mia,elomia@elu.com,Male,passElu
+samira,khan,samira@khan.com,Female,samira123
+admin,admin,admin,Male,admin
